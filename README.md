@@ -1,0 +1,1 @@
+This isn't a real hedgefund, but it's a repository I use to experiment with machine learning and the stock market.
