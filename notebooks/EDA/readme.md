@@ -1,1 +1,1 @@
-# Exploratory Data Analysis Writeup
+# Exploratory Data Analysis
