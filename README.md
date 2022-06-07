@@ -36,30 +36,29 @@ To begin, you will need to have a [numer.ai](numer.ai) account. Go sign up for o
 Most of the notebooks contain typical data science work for solving a problem. These notebooks have their own readme's in the notebooks folder, so explore there for more in-depth analysis about what was done. In this readme I'll focus on creating  a step by step guide to automate the process of actually participating in this contest using IBM cloud.
 
 An end-to-end solution can be implemented solely from the third notebook. To successfully automate your solution, here is a quick list of steps.
-
-1. Download the third notebook `Model Scoring and Prediction Upload job`
+1. Download the Deployment notebook from the notebooks folder
 
 
 2. Sign up for an [IBM Cloud Account](https://cloud.ibm.com/login)
-<img src="assets\2.IBM_Cloud_Signup.png" alt="Logo" width="200" height="200">
+<img src="assets\2.IBM_Cloud_Signup.png" alt="cloud_signup" width="200" height="200">
 
 3. Create a resource for Watson Studio
-<img src="assets\3.Watson_Studio_Resource.png" alt="Logo" width="200" height="200">
+<img src="assets\3.Watson_Studio_Resource.png" alt="watson_studio" width="200" height="200">
 
 4. Create a new project space with Watson Studio
-<img src="assets\4.New_Project.png" alt="Logo" width="400" height="200">
+<img src="assets\4.New_Project.png" alt="new_project" width="400" height="200">
 
 5. Create a custom software specification with the numerapi added
 5.1
-<img src="assets\5.1.custom_software_spec.png" alt="Logo" width="600" height="400">
+<img src="assets\5.1.custom_software_spec.png" alt="custom_software1" width="600" height="400">
 5.2
-<img src="assets\5.2.custom_software_spec.png" alt="Logo" width="600" height="200">
+<img src="assets\5.2.custom_software_spec.png" alt="custom_software2" width="600" height="200">
 
 6. Upload the above notebook to your project space
-<img src="assets\6.Upload_Notebook.png" alt="Logo" width="400" height="300">
+<img src="assets\6.Upload_Notebook.png" alt="upload_notebook" width="400" height="300">
 
 7. Set up a notebook job for automatically running the notebook
-<img src="assets\7.notebook_job.png" alt="Logo" width="600" height="400">
+<img src="assets\7.notebook_job.png" alt="notebook_job" width="600" height="400">
 
 8. Pat yourself on the back , you're all set!
 
