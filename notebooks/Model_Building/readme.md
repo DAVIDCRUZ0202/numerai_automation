@@ -10,24 +10,24 @@ Since this data has already been cleaned, we don't have to any vital data pre-pr
 ## Evaluation Metrics
 This competition is scored based on a variety of evaluation metrics which are explained in detail [here](https://docs.numer.ai/tournament/true-contribution-tc) [here](https://docs.numer.ai/tournament/metamodel-contribution) and [here](https://docs.numer.ai/tournament/feature-neutral-correlation). All of these methods have unique qualities to them, but a universally agreed upon method for gauging model performance is the [spearman's correlation](https://forum.numer.ai/t/pearson-vs-spearman-scoring-confusion/2559/2) coefficient and regular coefficient of correlation. I score my models with these metrics as well as including the r2 score which serves to show which models are working to predict actual values rather than just random information.
 
-<img src="assets\2.evaluation_metrics.png" alt="eval_metrics" width="400" height="200">
+<img src="assets\2.evaluation_metrics.png" alt="eval_metrics" width="800" height="200">
 
 ## Model Implementation
 
 To prove the concept of automation with ibm cloud, I initially fitted and predicted with a simple linear regression model. I follow this by creating a function which tests a larger number of pre-built algorithms to observe the general performance of all of these different models. By observing the performance of these models, I can make more specific choices as to what I want to incorporate and what I can exclude from my research.
 
-<img src="assets\3.func_1.png" alt="func1" width="400" height="800">
+<img src="assets\3.func_1.png" alt="func1" width="600" height="800">
 
 ## Refinement
 After observing initial results, I used a similar function to examing some more results from some more advanced algorithms. This process produced some of the best model choices available to me, and I was able to take some more precise decisions in what my final model would look like.
 
-<img src="assets\4.func_2.png" alt="func2" width="400" height="800">
+<img src="assets\4.func_2.png" alt="func2" width="800" height="800">
 
 ## Model Evaluation and Validation
 
 So with the final choices in hand, for a final pass at model choice, I created a cross validation pipeline to choose the best hyperparameters for my model. This ensured that without any additional feature engineering, I am using a model which is dependable in it's ability to make predictions. This final model from the cross validation process is the model that will stay with my project for a long time.
 
-<img src="assets\5.cross_val.png" alt="cross_val" width="400" height="800">
+<img src="assets\5.cross_val.png" alt="cross_val" width="800" height="800">
 
 ## Justification
 After testing the final model, we find that we almost double our correlation metric from our original OLS regression model. We ended up with a gradient boosting regressor, and so we can see the improvements in our product as a result of using a model which accelerates learning on gradients which show steeper curves and also the fact that we are using decision trees which provide predictions of values instead of a single regression line, as is found in regression.
