@@ -16,7 +16,7 @@ This competition is scored based on a variety of evaluation metrics which are ex
 
 To prove the concept of automation with ibm cloud, I initially fitted and predicted with a simple linear regression model. I follow this by creating a function which tests a larger number of pre-built algorithms to observe the general performance of all of these different models. By observing the performance of these models, I can make more specific choices as to what I want to incorporate and what I can exclude from my research.
 
-<img src="assets\3.func_1.png" alt="func1" width="600" height="800">
+<img src="assets\3.func_1.png" alt="func1" width="1000" height="800">
 
 ## Refinement
 After observing initial results, I used a similar function to examing some more results from some more advanced algorithms. This process produced some of the best model choices available to me, and I was able to take some more precise decisions in what my final model would look like.
