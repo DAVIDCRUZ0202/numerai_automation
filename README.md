@@ -1,10 +1,4 @@
-# Numer.AI Tutorial and Implementation
-
-1. Installations
-2. Project Motivation
-3. File Descriptions
-4. How to Work with the Project
-5. Licensing, Authors, Acknowledgements, etc.
+# Numer.AI Tournament Submission and Automation Walkthrough
 
 # Installations
 
