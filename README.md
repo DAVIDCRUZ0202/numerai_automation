@@ -13,6 +13,10 @@ Three major reasons for me creating this repository:
 
 [Numer.ai](numer.ai) is an ongoing open source data science tournament which accepts weekly submissions from participants. The project aims to be "The World's Last Hedge Fund" by crowd-sourcing the technical work to a community of data scientists. Data scientists can participate in the competition to either strictly work on their skills , or they could also invest real funds into the performance of their predictions.
 
+# What are we predicting?
+We are attempting to predict a stock's performance ~4 weeks into the future, using obfuscated dfinancial information. For more information about what metrics are used to evaluate this and how that process is completed, check the model_building sub-directory.
+
+# Overview
 It should be noted that directly from their home page, a link is available for an example package of not only the tournament data, but also scripts for example model building, data exploration, and tips and analysis to help users get started. If you're interested in some more advanced material and do not wish to automate through IBM Cloud, I recommend checking out their available work from the [official repository](https://github.com/numerai)
 
 Within this repository is a novel solution to automate the numer.ai workflow using IBM Cloud services at no cost to the users. I hope this motivates more users to use the IBM platform to automate their workflows. In the future I aim to automate more than just submissions; things like automatic model optimization for specific metrics sound attractive and doable. Besides automating the workflow for this competition, I also expand on the problem itsself, and conduct deep-dives into all aspects of data exploration, visualization, and modeling. This project will continue to evolve and adapt with the data, and for future updates, I'll continue to refine the automation process.
