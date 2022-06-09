@@ -23,7 +23,7 @@ Within this repository is a novel solution to automate the numer.ai workflow usi
   * `Model_Building` - This file contains some functions I used in the preliminary stages of model building. I explore mdoel performance, define the evaluation metrics, and compare results of many different ML algorithms in this notebook. By the end of this notebook I save a best-performing model.
   * `Model Scoring and Prediction Upload Job` - This notebook serves as a template which can be adapted to whoever's looking to automate their work through IBM cloud. It covers every step of the competition, from importing new data, setting up an API connection, creating predictions, uploading them to the competition, and some additional useful commands for understanding how the competition's ecosystem works.
 
-# How to work with the Project
+# How to work with the Project(Deployment Walkthrough)
 
 To begin, you will need to have a [numer.ai](numer.ai) account. Go sign up for one, go to your account settings, and create a model. While you're there, create a public and private API Key and save the credentials somewhere, you'll need them shortly!
 
