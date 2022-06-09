@@ -63,7 +63,4 @@ All notebooks and IP are covered under their respective licensing
 
 Author - David Cruz
 
-Acknowledgements to the IBM Data Science Elite Team and the Numer.ai Community for all of the different contributions made!
-
-
 ** After passing the Udacity Capstone, I'll continue to update this repository with much more community-driven content and advanced techniques.
