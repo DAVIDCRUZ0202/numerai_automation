@@ -42,10 +42,11 @@ An end-to-end solution can be implemented solely from the third notebook. To suc
 4. Create a new project space with Watson Studio
 <img src="assets\4.New_Project.png" alt="new_project" width="400" height="200">
 
-5. Create a custom software specification with the numerapi added
-5.1
+5.1 Create a custom software specification with the numerapi library added via customization
+
 <img src="assets\5.1.custom_software_spec.png" alt="custom_software1" width="600" height="400">
-5.2
+
+5.2 - clarification on step 5 here
 <img src="assets\5.2.custom_software_spec.png" alt="custom_software2" width="600" height="200">
 
 6. Upload the above notebook to your project space
