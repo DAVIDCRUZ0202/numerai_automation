@@ -2,7 +2,7 @@
 
 ### Note
 
-This data is not available in the repo because it is massive. Just go to [numer.ai](numer.ai) and click `download`. Once your data is downloaded, just move the `numerai_training_data.csv` file to your local space, and you're good to go!
+This data set for replication is not available within the repo because it is massive. Just go to [numer.ai](numer.ai) and click `download`. Once your data is downloaded, just move the `numerai_training_data.csv` file to your local space, and you're good to go!
 
 <img src="assets\download_data.png" alt="download_data" width="1000" height="400">
 
