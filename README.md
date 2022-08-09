@@ -65,5 +65,3 @@ An end-to-end solution can be implemented solely from the third notebook. To suc
 All notebooks and IP are covered under their respective licensing
 
 Author - David Cruz
-
-** After passing the Udacity Capstone, I'll continue to update this repository with much more community-driven content and advanced techniques.
