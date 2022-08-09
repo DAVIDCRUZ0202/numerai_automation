@@ -6,10 +6,9 @@ Just do a `pip install -r requirements.txt` with the provided requirements file,
 
 # Project Motivation
 
-Three major reasons for me creating this repository:
+ reasons for me creating this repository:
 * Explore the numer.ai competition from as fresh of a perspective as possible
 * Automate the numer.ai competition in a new way which does not require AWS (Lets go IBM Cloud!)
-* To serve as a Capstone project for Udacity 😜 **
 
 [Numer.ai](numer.ai) is an ongoing open source data science tournament which accepts weekly submissions from participants. The project aims to be "The World's Last Hedge Fund" by crowd-sourcing the technical work to a community of data scientists. Data scientists can participate in the competition to either strictly work on their skills , or they could also invest real funds into the performance of their predictions.
 
